@@ -1,0 +1,13 @@
+#retorno positivo negativo.
+
+def verificar_numero(numero):
+    if numero > 0:
+        return "Esse numero é positivo"
+    elif numero < 0:
+        return "Esse numero é negativo"
+    else:
+        return "Você digitou Zero"
+
+numero = int(input("Digite um número: "))
+resultado = verificar_numero(numero)
+print(resultado)
